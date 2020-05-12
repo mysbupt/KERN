@@ -1,0 +1,45 @@
+fit:
+  data_path: "./dataset/FIT/FIT_data.json"
+  data_norm_path: "./dataset/FIT/FIT_data_norm.json"
+  group_affiliation_adj_path: "./dataset/FIT/kg_group_adj_normed.json"
+  affiliation_adj_path: "./dataset/FIT/kg_adj_normed.json"
+  dist_mat_path: "./dataset/FIT/dist_mat.npy"
+  input_len: 48
+  output_len: 12
+  ext_kg: false # whether to use external knowledge: the message passing over taxonomy tree
+  int_kg: true # whether to use internal knowledge: the triplet regularization term
+  triplet_lambda: 0.0002
+  sample_range: 50
+  use_grp_embed: True # whether use user embedding
+  lr: 0.001
+  lr_decay_interval: 20
+  lr_decay_gamma: 0.1
+  test_interval: 1
+  optimizer: "adam" # options: adam, sgd
+  epoch: 20
+  batch_size: 400
+  feat_size: 10
+  rnn_hidden_size: 50
+  denorm: false # whether to denormalization after the predction
+
+geostyle:
+  data_path: "./dataset/GeoStyle/geostyle_data.json"
+  data_norm_path: "./dataset/GeoStyle/geostyle_data_norm.json"
+  dist_mat_path: "./dataset/GeoStyle/dist_mat_geostyle.npy"
+  input_len: 52
+  output_len: 26 
+  ext_kg: false # whether to use external knowledge: the message passing over taxonomy tree
+  int_kg: false # # whether to use internal knowledge: the triplet regularization term
+  triplet_lambda: 0.0002
+  sample_range: 100
+  use_grp_embed: True # whether use user embedding
+  lr: 0.001
+  lr_decay_interval: 20
+  lr_decay_gamma: 0.1
+  test_interval: 1
+  optimizer: "adam" # options: adam, sgd
+  epoch: 20
+  batch_size: 400
+  feat_size: 10
+  rnn_hidden_size: 50
+  denorm: true # whether to denormalization after the predction

@@ -26,6 +26,7 @@ Thumbs.db
 *.swp
 *.weight
 
+*.tgz
 dataset
 dataset*
 dataset/*

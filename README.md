@@ -9,9 +9,10 @@
 
 ## How to Run
 1. Download the [dataset](https://drive.google.com/open?id=1OtwOoHYMuLKy_Yjk-_rgjJL5uMWWhPn8), decompress it and put it on the top directory: tar -zxvf dataset.tgz
-
 Note that, the downloaded files include both proprecessed datasets of GeoStyle and FIT. If you want to download the original GeoStyle dataset and reproduce the preprocessing, kindly run the script 0\_preprocess\_data.py. Detailed introduction is within the script.
+
 2. Change the hyper-parameters in the configure file config.yaml.
+
 3. Run: train.py
 
 

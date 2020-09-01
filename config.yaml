@@ -5,8 +5,8 @@ fit:
   affiliation_adj_path: "./dataset/FIT/kg_adj_normed.json"
   dist_mat_path: "./dataset/FIT/dist_mat.npy"
   input_len: 48
-  output_len: 12
-  ext_kg: false # whether to use external knowledge: the message passing over taxonomy tree
+  output_len: 24
+  ext_kg: true # whether to use external knowledge: the message passing over taxonomy tree
   int_kg: true # whether to use internal knowledge: the triplet regularization term
   triplet_lambda: 0.0002
   sample_range: 50
@@ -28,8 +28,8 @@ geostyle:
   dist_mat_path: "./dataset/GeoStyle/dist_mat_geostyle.npy"
   input_len: 52
   output_len: 26 
-  ext_kg: false # whether to use external knowledge: the message passing over taxonomy tree
-  int_kg: false # # whether to use internal knowledge: the triplet regularization term
+  ext_kg: true # whether to use external knowledge: the message passing over taxonomy tree
+  int_kg: true # # whether to use internal knowledge: the triplet regularization term
   triplet_lambda: 0.0002
   sample_range: 100
   use_grp_embed: True # whether use user embedding

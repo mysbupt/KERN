@@ -1,5 +1,10 @@
 # This is the repo for paper: Knowledge Enhanced Neural Fashion Trend Forecasting
 
+## Requirements
+1. OS: Ubuntu 16.04 or higher version
+2. python3
+3. python modules: yaml, pytorch, tqdm, numpy, pickle
+
 ## Code Structure
 
 1. The entry script is: train.py

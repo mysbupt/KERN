@@ -47,8 +47,7 @@ def train(conf):
         conf["gender_num"] = len(dataset.gender_id_map)
         conf["age_num"] = len(dataset.age_id_map)
 
-    device = torch.device("cuda:6" if torch.cuda.is_available() else "cpu")
-    #device = "cpu"
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     conf["device"] = device
 
     for k, v in conf.items():

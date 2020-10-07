@@ -1,4 +1,4 @@
-# This is the repo for paper: Knowledge Enhanced Neural Fashion Trend Forecasting
+# This is the repo for paper: [Knowledge Enhanced Neural Fashion Trend Forecasting](https://arxiv.org/pdf/2005.03297.pdf)
 
 ## Requirements
 1. OS: Ubuntu 16.04 or higher version

@@ -1,5 +1,8 @@
 # This is the repo for paper: [Knowledge Enhanced Neural Fashion Trend Forecasting](https://arxiv.org/pdf/2005.03297.pdf)
 
+## Update:
+Please refer to the updated repo [KERN_reproduce](https://github.com/mysbupt/KERN_reproduce) for the code and dataset, which are re-organized to be well-structured and easy to be understood.
+
 ## Requirements
 1. OS: Ubuntu 16.04 or higher version
 2. python3
